@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsekSolution.WebApi", "EnsekSolution.WebApi\EnsekSolution.WebApi.csproj", "{34C74854-BF6B-40EE-8AE0-6385D82E4E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsekSolution.Client", "EnsekSolution.Client\EnsekSolution.Client.csproj", "{8BC957BD-77A6-4570-8E5D-6CA64909E777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsekSolution.Core", "EnsekSolution.Core\EnsekSolution.Core.csproj", "{D47B9184-7170-4143-87B8-BCC29ED5BDB1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EnsekSolution.DatabaseProject", "EnsekSolution.DatabaseProject\EnsekSolution.DatabaseProject.sqlproj", "{69D17863-A30D-4332-987A-5247A3F5AD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsekSolution.UnitTesting", "EnsekSolution.UnitTesting\EnsekSolution.UnitTesting.csproj", "{1A247731-B3EB-452C-95F3-35E3EC20E5D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34C74854-BF6B-40EE-8AE0-6385D82E4E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C74854-BF6B-40EE-8AE0-6385D82E4E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C74854-BF6B-40EE-8AE0-6385D82E4E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C74854-BF6B-40EE-8AE0-6385D82E4E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC957BD-77A6-4570-8E5D-6CA64909E777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC957BD-77A6-4570-8E5D-6CA64909E777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC957BD-77A6-4570-8E5D-6CA64909E777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC957BD-77A6-4570-8E5D-6CA64909E777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47B9184-7170-4143-87B8-BCC29ED5BDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47B9184-7170-4143-87B8-BCC29ED5BDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47B9184-7170-4143-87B8-BCC29ED5BDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47B9184-7170-4143-87B8-BCC29ED5BDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D17863-A30D-4332-987A-5247A3F5AD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D17863-A30D-4332-987A-5247A3F5AD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D17863-A30D-4332-987A-5247A3F5AD9B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{69D17863-A30D-4332-987A-5247A3F5AD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D17863-A30D-4332-987A-5247A3F5AD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D17863-A30D-4332-987A-5247A3F5AD9B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1A247731-B3EB-452C-95F3-35E3EC20E5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A247731-B3EB-452C-95F3-35E3EC20E5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A247731-B3EB-452C-95F3-35E3EC20E5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A247731-B3EB-452C-95F3-35E3EC20E5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BABC6A6D-A636-4053-8B52-70F391DFEB62}
+	EndGlobalSection
+EndGlobal
